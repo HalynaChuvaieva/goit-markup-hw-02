@@ -1,45 +1,53 @@
 body{
     font-family: "Roboto", "Arial", "Helvetica", "Verdana", "Tahoma", sans-serif;
-    color: #2E2F42;
+    color: #2E2F42; 
     background-color: #ffffff;
     letter-spacing: 0.02em;
 }
+
 ul{
     list-style-type: none;
 }
+
 a{
     text-decoration: none;
     color: inherit;
 }
-button{
-    cursor: pointer;
-}
+
 .page-logo{
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 117%;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
+
 .page-logo .web-logo{
     color: #4D5AE5;
 }
+
 .nav-link{
     font-weight: 500;
-    font-size: 16px;
-    line-height: 150%;
+    line-height: 1.5;
 }
+
+.nav-link:hover, .contacts:hover, .nav-link:focus,
+.contacts:focus{
+    color: #404bbf;
+}
+
 .contacts{
-    line-height: 150%;
+    line-height: 1.5;
     color: #434455;
     font-style: normal;
 }
+
 .page-title{
     color: #ffffff;
     font-weight: 700;
     font-size: 56px;
-    line-height: 107%;
+    line-height: 1.07;
     text-align: center;
 }
 .first-section{
@@ -49,9 +57,10 @@ button{
 }
 
 .button{
+    cursor: pointer;
     color:#ffffff;
     font-weight: 500;
-    line-height: 150%;
+    line-height: 1.5;
     letter-spacing: 0.04em;
     border-radius: 4px;
     padding: 16px 32px;
@@ -61,23 +70,25 @@ button{
     background: #4d5ae5;
 }
 
+.button:hover{
+    background: #404bbf;
+}
+
 .section-title{
     font-weight: 700;
     font-size: 36px;
-    line-height: 111%;
+    line-height: 1.11;
     text-align: center;
-    color: #2E2F42;
 }
 
 .feature{
     font-weight: 500;
     font-size: 20px;
-    line-height: 120%;
-    color: #2E2F42;
+    line-height: 1.2;
 }
 
 .feature-description{
-    line-height: 150%;
+    line-height: 1.5;
     color: #434455;
 }
 
@@ -92,8 +103,7 @@ button{
 .name{
     font-weight: 500;
     font-size: 20px;
-    line-height: 120%;
-    color: #2E2F42;
+    line-height: 1.2;
 }
 
 .card .name, .card .type{
@@ -101,7 +111,7 @@ button{
 }
 
 .type{
-    line-height: 150%;
+    line-height: 1.5;
     color: #434455;
 }
 
@@ -118,5 +128,5 @@ button{
 }
 
 .footer-text{
-    line-height: 150%;
+    line-height: 1.5;
 }
