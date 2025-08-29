@@ -1,20 +1,21 @@
-body{
-    font-family: "Roboto", "Arial", "Helvetica", "Verdana", "Tahoma", sans-serif;
-    color: #2E2F42; 
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
     background-color: #ffffff;
     letter-spacing: 0.02em;
 }
 
-ul{
+ul {
     list-style-type: none;
 }
 
-a{
+a {
     text-decoration: none;
     color: inherit;
 }
 
-.page-logo{
+.page-logo {
+    color: #4d5ae5;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -23,122 +24,128 @@ a{
     text-transform: uppercase;
 }
 
-.page-logo .web-logo{
-    color: #4D5AE5;
+.web-logo {
+    color: #2E2F42;
 }
 
-.nav-link{
+.nav-link {
+    color: #2E2F42;
     font-weight: 500;
     line-height: 1.5;
 }
 
-.nav-link:hover, .contacts:hover, .nav-link:focus,
-.contacts:focus{
+.nav-link:hover,
+.contacts:hover,
+.nav-link:focus {
     color: #404bbf;
 }
 
-.contacts{
+.contacts:focus {
+    color: #404bbf;
+}
+
+.contacts-list {
     line-height: 1.5;
-    color: #434455;
     font-style: normal;
 }
 
-.page-title{
+.page-title {
     color: #ffffff;
-    font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
+    letter-spacing: 0.02em;
 }
-.first-section{
+
+.first-section {
     background-color: #2E2F42;
     width: 1440px;
     height: 600px;
 }
 
-.button{
+.button {
+    font-family: "Roboto", sans-serif;
     cursor: pointer;
-    color:#ffffff;
+    color: #ffffff;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    border-radius: 4px;
     width: 169px;
     height: 56px;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: #4d5ae5;
 }
 
-.button:hover{
+.button:hover {
     background: #404bbf;
 }
 
-.section-title{
-    font-weight: 700;
+.button:focus {
+    background: #404bbf;
+}
+
+.section-title {
+    letter-spacing: 0.02em;
+    color: #2E2F42;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
+    text-transform: capitalize;
 }
 
-.feature{
+.feature {
+    color: #2E2F42;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
 }
 
-.feature-description{
+.feature-description {
     line-height: 1.5;
-    color: #434455;
 }
 
-.card{
-    border-radius: 0 0 4px 4px;
-    padding: 0px 0px 32px;
+.team {
+    background-color: #F4F4FD;
+}
+
+.card {
     width: 264px;
     height: 380px;
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    background-color: #FFFFFF;
 }
 
-.name{
+.name {
+    color: #2E2F42;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 
-.card .name, .card .type{
+.card .name,
+.card .type {
     text-align: center;
 }
 
-.type{
+.type {
     line-height: 1.5;
-    color: #434455;
 }
 
-.app-card{
+.app-card {
     width: 360px;
     height: 420px;
 }
 
-.page-footer{
+.page-footer {
     width: 1440px;
     height: 312px;
     background: #2e2f42;
     color: #f4f4fd;
 }
 
-.footer-text{
+.footer-text {
     line-height: 1.5;
 }
 
-.visually-hidden {
-        position: absolute;
-        width: 1px;
-        height: 1px;
-        padding: 0;
-        margin: -1px;
-        overflow: hidden;
-        clip: rect(0, 0, 0, 0);
-        white-space: nowrap;
-        border: 0;
-        clip-path: inset(100%);
+.web-logo-footer {
+    color: #F4F4FD;
 }
