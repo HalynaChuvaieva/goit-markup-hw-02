@@ -59,8 +59,6 @@ a {
 
 .first-section {
     background-color: #2E2F42;
-    width: 1440px;
-    height: 600px;
 }
 
 .button {
@@ -70,8 +68,6 @@ a {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    width: 169px;
-    height: 56px;
     background: #4d5ae5;
 }
 
@@ -93,6 +89,7 @@ a {
 }
 
 .feature {
+    letter-spacing: 0.02em;
     color: #2E2F42;
     font-weight: 500;
     font-size: 20px;
@@ -108,8 +105,6 @@ a {
 }
 
 .card {
-    width: 264px;
-    height: 380px;
     background-color: #FFFFFF;
 }
 
@@ -130,14 +125,8 @@ a {
     line-height: 1.5;
 }
 
-.app-card {
-    width: 360px;
-    height: 420px;
-}
 
 .page-footer {
-    width: 1440px;
-    height: 312px;
     background: #2e2f42;
     color: #f4f4fd;
 }
